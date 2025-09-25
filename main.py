@@ -1,5 +1,5 @@
 
-# Euro Conversion Rates as of 9/19/25i
+# Euro Conversion Rates as of 9/19/25
 # Written by Chase Dustin
 
 
@@ -7,7 +7,17 @@ import random
 import math
 
 
-us_dollar_value = 1.17
+
+def welcome_message():
+    print("Welcome to the CurrencyConverter!\n"
+          "Please choose a currency to convert: ")
+    print("1. $ U.S. Dollar(USD) $")
+    print("2. € EU Euro(EUR) €")
+    print("3. ¥ Japanese Yen(JPY) ¥")
+    print("4. £ British Pound Sterling(GBP) £")
+    print("5. $ Australian Dollar(AUD) $")
+    print("6. ")
+    
 
 
 def convert():
