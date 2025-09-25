@@ -24,7 +24,7 @@ def convert():
     while True:
         try:
             number = float(input("Enter amount to convert: "))
-            print(us_dollar_value * number)
+            print(CURRENCY_VARIABLE * number)
             break
         except ValueError:
             print("Invalid input! Please enter a valid number!") 
